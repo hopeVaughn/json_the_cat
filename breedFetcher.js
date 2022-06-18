@@ -14,7 +14,6 @@ const fetchBreedDescription = function(breedName, callback) {
     } else {
       callback(null, data[0].description);
     }
-
   });
 };
 
